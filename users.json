@@ -1,0 +1,100 @@
+{
+    "omnia": {
+        "username": "omnia",
+        "email": "omnia@gmail.com",
+        "password": "456",
+        "Bio": "hello, i'm omnia",
+        "friends": [
+            "user1"
+        ],
+        "friend_requests": [],
+        "posts": [
+            1,
+            2
+        ],
+        "messages_to_you": [],
+        "messages_from_you": [],
+        "notifications": [],
+        "saved_posts": [
+            {
+                "author": "omnia",
+                "post_id": 1,
+                "likes": 0,
+                "liked_by": [],
+                "comments": [],
+                "type": "text",
+                "content": "hi"
+            },
+            {
+                "author": "omnia",
+                "post_id": 2,
+                "likes": 1,
+                "liked_by": [
+                    {
+                        "user": "omnia",
+                        "time": "2024-09-30 15:23:20"
+                    }
+                ],
+                "comments": [],
+                "type": "image",
+                "image_path": "C:/sic/Social_Media Project/Screenshot 2024-05-08 165819.png"
+            },
+            {
+                "author": "omnia",
+                "post_id": 1,
+                "likes": 1,
+                "liked_by": [
+                    {
+                        "user": "omnia",
+                        "time": "2024-09-30 15:22:59"
+                    }
+                ],
+                "comments": [],
+                "type": "text",
+                "content": "hi"
+            }
+        ]
+    },
+    "user1": {
+        "username": "user1",
+        "email": "user1@gmail.com",
+        "password": "123",
+        "Bio": "this is user1",
+        "friends": [
+            "omnia",
+            "user2"
+        ],
+        "friend_requests": [
+            "user2"
+        ],
+        "posts": [],
+        "messages_to_you": [],
+        "messages_from_you": [],
+        "notifications": []
+    },
+    "user2": {
+        "username": "user2",
+        "email": "user2@gmail.com",
+        "password": "122",
+        "Bio": "iam user2",
+        "friends": [
+            "user1"
+        ],
+        "friend_requests": [],
+        "posts": [],
+        "messages_to_you": [],
+        "messages_from_you": [],
+        "notifications": []
+    },
+    "ahmed": {
+        "username": "ahmed",
+        "email": "ahmed25@gmail.com",
+        "password": "123",
+        "Bio": "Hello, I'm ahmed",
+        "friends": [],
+        "friend_requests": [],
+        "posts": [],
+        "messages_to_you": [],
+        "messages_from_you": []
+    }
+}
